@@ -18,7 +18,7 @@
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	background: url(../../images/gallery_img/nav.png) no-repeat -20% 50%;
+	background: url(../../images/gallery/nav.png) no-repeat -20% 50%;
 	width: 28px;
 	height: 100%;
 	text-indent: -9000px;
@@ -59,7 +59,7 @@
 	width: 16px;
 	height: 16px;
 	margin-right: 3px;
-	background: #464646 url(../../images/gallery_img/views.png) no-repeat top left;
+	background: #464646 url(../../images/gallery/views.png) no-repeat top left;
 	border: 3px solid #464646;
 	opacity: 0.8;
 }
@@ -82,7 +82,7 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	background: #000 url(../../images/gallery_img/ajax-loader.gif) no-repeat center center;
+	background: #000 url(../../images/gallery/ajax-loader.gif) no-repeat center center;
 	margin: -23px 0px 0px -23px;
 	z-index: 100;
 	-moz-border-radius: 10px;
@@ -135,7 +135,7 @@
 	position: absolute;
 	top: 50%;
 	left: 8px;
-	background: transparent url(../../images/gallery_img/nav_thumbs.png) no-repeat top left;
+	background: transparent url(../../images/gallery/nav_thumbs.png) no-repeat top left;
 	width: 14px;
 	height: 26px;
 	margin-top: -13px;
