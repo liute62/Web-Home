@@ -25,7 +25,24 @@
     <!--nivoSlider-->
     <link href="assets/css/nivo_slider/nivo-slider.css" rel="stylesheet"/>
     <!--nivoSlider-->
-
+    <!-- Gallery Section-->
+    <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+    </script>
     <body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
     
     <div class="container-fluid clearfix welcome">
@@ -84,11 +101,9 @@
                         </header>
                     </div>
                     <div class="container clearfix">
-                        <div class="row-fluid">
+                        <div class="row-fluid"> 
                             <div class="span12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat,
-                                sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis
-                                vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
+                                <p>This is my portfolio!</p>
                             </div>
                         </div>
                     </div>
@@ -105,7 +120,7 @@
                                                 <em>ActivityDesigner</em> <span class="link_post"><a href="#"></a></span> 
                                                 <span class="zoom"><a href="ActivityDesigner/images/image1.png"></a> </span>
                                                 </article>
-                                                </div>
+                                            </div>
                                         </li>
 
                                         <li class="span3"> <img src="PSA/images/image1.png" alt="img">
@@ -114,21 +129,23 @@
                                                     <em>PSA</em> <span class="link_post"><a href="#"></a></span> <span class="zoom">
                                                     <a href="PSA/images/image1.png"></a></span> </article>
                                         </li>
-
                                         <li class="span3"> <img src="ZombieGame/images/image1.png" alt="img">
                                             <article class="da-animate da-slideFromLeft" style="display: block;">
                                                     <h3>ZombieGame</h3>
                                                     <em>ZombieGame</em> <span class="link_post"><a href="#"></a></span> <span class="zoom">
                                                     <a href="ZombieGame/images/image1.png"></a></span> </article>
                                         </li>
-
                                         <li class="span3"> <img src="killersOfThreeKindoms/images/image1.png" alt="img">
                                             <article class="da-animate da-slideFromRight" style="display: block;">
                                                     <h3>killersOfThreeKindoms</h3>
                                                     <em>killersOfThreeKindoms</em> <span class="link_post"><a href="#"></a></span> <span class="zoom">
                                                     <a href="killersOfThreeKindoms/images/image1.png"></a></span> </article>
+                                        
                                         </li>
+    
                                     </ul>
+                                        
+
                                 </div>
                             </div>
                         </div>
@@ -153,11 +170,33 @@
                                             <div class="es-nav"> <span class="es-nav-prev">Previous</span> <span class="es-nav-next">Next</span> </div>
                                             <div class="es-carousel">
                                                 <ul>
-                                                    <li><a href="#"><img src="gallery/image1.jpg" data-large="gallery/image1.jpg" alt="image01" data-description="From off a hill whose concave womb reworded" /></a></li>
-                                                    <li><a href="#"><img src="gallery/image2.jpg" data-large="gallery/image2.jpg" alt="image02" data-description="A plaintful story from a sistering vale" /></a></li>
-                                                    <li><a href="#"><img src="gallery/image3.jpg" data-large="gallery/image3.jpg" alt="image03" data-description="A plaintful story from a sistering vale" /></a></li>
-                                                    <li><a href="#"><img src="gallery/image4.jpg" data-large="gallery/image4.jpg" alt="image04" data-description="My spirits to attend this double voice accorded" /></a></li>
-                                                    <li><a href="#"><img src="gallery/image5.jpg" data-large="gallery/image5.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image1.jpg" data-large="gallery/image1.jpg" alt="image01" data-description="From off a hill whose concave womb reworded" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image2.jpg" data-large="gallery/image2.jpg" alt="image02" data-description="A plaintful story from a sistering vale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image3.jpg" data-large="gallery/image3.jpg" alt="image03" data-description="A plaintful story from a sistering vale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image4.jpg" data-large="gallery/image4.jpg" alt="image04" data-description="My spirits to attend this double voice accorded" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image5.jpg" data-large="gallery/image5.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image6.jpg" data-large="gallery/image6.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image7.jpg" data-large="gallery/image7.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image8.jpg" data-large="gallery/image8.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image9.jpg" data-large="gallery/image9.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image10.jpg" data-large="gallery/image10.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image11.jpg" data-large="gallery/image11.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image12.jpg" data-large="gallery/image12.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image13.jpg" data-large="gallery/image13.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image14.jpg" data-large="gallery/image14.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image15.jpg" data-large="gallery/image15.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image16.jpg" data-large="gallery/image16.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image17.jpg" data-large="gallery/image17.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image18.jpg" data-large="gallery/image18.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image19.jpg" data-large="gallery/image19.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image20.jpg" data-large="gallery/image20.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image21.jpg" data-large="gallery/image21.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image22.jpg" data-large="gallery/image22.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image23.jpg" data-large="gallery/image23.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image24.jpg" data-large="gallery/image24.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image25.jpg" data-large="gallery/image25.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image26.jpg" data-large="gallery/image26.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                                    <li><a href="#"><img src="gallery/small/image27.jpg" data-large="gallery/image27.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
                             
                                                 </ul>
                                             </div>
@@ -176,7 +215,7 @@
             <div id="Contact">
                 <div class="container-fluid clearfix Contact">
                     <div class="container clearfix TitleSection">
-                        <header class="page-head"> <h1>CONTACT Me <small>// LET'S HAVE A DISCUSSION</small></h1></header>
+                        <header class="page-head"> <h1>CONTACT ME <small>// LET'S HAVE A DISCUSSION</small></h1></header>
                     </div>
                     <div class="container clearfix">
                         <div class="container">
