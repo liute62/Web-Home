@@ -104,6 +104,11 @@ p {
 	padding-left: 0;
 	padding-right: 0;
 }
+.my-container-fluid{
+}
+.my-container{
+    
+}
 .welcome {
 	background: url(../../images/bgnoise.jpg) 50% 0 repeat fixed;
 }
@@ -111,7 +116,7 @@ p {
 	background: url(../../images/bgnoise.jpg) 50% 0 repeat fixed;
 	color: #575757;
 	overflow: hidden;
-	padding: 85px 0 100px;
+	padding: 85px 0px 100px;
 	z-index: -1;
 }
 .Services {
@@ -309,6 +314,27 @@ li [class^="icon-"], li [class*=" icon-"] {
 .Team h3 {
 	color: #707070;
 	font-size: 27px;
+}
+.MyTeam{
+
+ border-bottom: 3px solid #F96E5B;
+ margin: 5px 5%;
+ padding: 10px;
+ text-align: center;
+}
+.MyTeam h2 {
+	color: #F96E5B;
+	margin-bottom: -4px;
+}
+.MyTeam h3 {
+	color: #F96E5B;
+	font-size: 27px;
+}
+.MyTeam h4 {
+	color: #F96E5B;
+	font-size: 18px;
+	font-family: 'Kelly Slab', cursive !important;
+
 }
 .img-thumb-container {
 	overflow: hidden;
@@ -637,6 +663,22 @@ a.btn:hover, button.btn:hover {
 	color: #FFFFFF;
 	text-shadow: 1px 1px 0 #C9453B !important;
 }
+.navbar .my-home li > .dropdown-toggle {
+	background-color: #F96E5B;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 0 #C9453B !important;
+}
+
+.navbar .my-home >li >a:focus, .navbar .my-home > li > a:hover{
+	color: #fff !important;
+	-webkit-transition: background 500ms ease-out;
+	-moz-transition: background 500ms ease-out;
+	-ms-transition: background 500ms ease-out;
+	-o-transition: background 500ms ease-out;
+	transition: background 500ms ease-out;
+	text-decoration: none;
+}
+
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
 	background-color: transparent;
 	color: #fff !important;
@@ -647,6 +689,7 @@ a.btn:hover, button.btn:hover {
 	transition: background 500ms ease-out;
 	text-decoration: none;
 }
+
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
 	text-decoration: none;
 	color: #ffffff;
@@ -673,4 +716,12 @@ a.btn:hover, button.btn:hover {
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret, .navbar .nav li.dropdown.active > .dropdown-toggle .caret, .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
 	border-top-color: #ffffff;
 	border-bottom-color: #ffffff;
+}
+
+.navbar .my-home li > .dropdown-toggle .caret {
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+}
+.my-span3{
+    width: 320px
 }
