@@ -196,58 +196,6 @@ p {
 [class^="icon-"], [class*=" icon-"] {
  margin-right: 10px;
 }
-/**Social**/
-.Social {
-	height: 40px;
-	margin: 10px 23% !important;
-}
-ul.Social li {
-	float: left;
-	height: 40px;
-	margin: 0 5px;
-	width: 32px;
-}
-ul.Social li a {
-	display: block;
-	float: left;
-	height: 40px;
-	opacity: 0.7;
-	text-indent: -9999px;
-	width: 32px;
-}
-ul.Social li a:hover {
-	opacity: 1;
-}
-.Rss {
-	background: url("../../images/social/rss.png") no-repeat scroll 0 6px transparent;
-}
-.Facebook {
-	background: url("../../images/social/facebook.png") no-repeat scroll 0 6px transparent;
-}
-.Twitter {
-	background: url("../../images/social/twitter.png") no-repeat scroll 0 6px transparent;
-}
-.Dribbble {
-	background: url("../../images/social/dribbble.png") no-repeat scroll 0 6px transparent;
-}
-.YouTube {
-	background: url("../../images/social/youtube.png") no-repeat scroll 0 6px transparent;
-}
-.Behance {
-	background: url("../../images/social/behance.png") no-repeat scroll 0 6px transparent;
-}
-.Deviantart {
-	background: url("../../images/social/deviantart.png") no-repeat scroll 0 6px transparent;
-}
-.Wordpress {
-	background: url("../../images/social/wordpress.png") no-repeat scroll 0 6px transparent;
-}
-.Picasa {
-	background: url("../../images/social/picasa.png") no-repeat scroll 0 6px transparent;
-}
-.Google {
-	background: url("../../images/social/google.png") no-repeat scroll 0 6px transparent;
-}
 /***About*****/
 .overlay-wrp {
 	display: none;
