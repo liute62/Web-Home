@@ -112,6 +112,17 @@ p {
 .welcome {
 	background: url(../../images/bgnoise.jpg) 50% 0 repeat fixed;
 }
+.Intro{
+    background: url(../../images/bgnoise.jpg) 50% 0 repeat fixed;
+}
+.ScreenShot{
+    background: url(../../images/bgnoise.jpg) 50% 0 repeat fixed;
+	color: #575757;
+	overflow: hidden;
+	padding: 85px 0px 100px;
+	z-index: -1;
+}
+
 .About {
 	background: url(../../images/bgnoise.jpg) 50% 0 repeat fixed;
 	color: #575757;
@@ -671,5 +682,9 @@ a.btn:hover, button.btn:hover {
 	border-bottom-color: #ffffff;
 }
 .my-span3{
+    width: 320px
+}
+
+.psa-gif-span{
     width: 320px
 }
