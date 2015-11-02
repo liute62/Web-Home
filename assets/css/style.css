@@ -25,16 +25,19 @@ Style
 }
 /**selection text**/
 ::selection {
-	background: #F96E5B;
+/*	background: #F96E5B;*/
+    background: #F96E5B;
 	color: #fff;
 }
 
 ::-moz-selection {
- background: #F96E5B;
- color: #fff;
+/* background: #F96E5B;*/
+   background: #F96E5B;
+  color: #fff;
 }
 
 ::-webkit-selection {
+/* background: #F96E5B;*/
  background: #F96E5B;
  color: #fff;
 }
@@ -281,6 +284,11 @@ li [class^="icon-"], li [class*=" icon-"] {
  padding: 10px;
  text-align: center;
 }
+.MyShortTeam{
+ width: 200px; 
+ text-align: center; 
+}
+
 .MyTeam h2 {
 	color: #F96E5B;
 	margin-bottom: -4px;
@@ -292,6 +300,11 @@ li [class^="icon-"], li [class*=" icon-"] {
 .MyTeam h4 {
 	color: #F96E5B;
 	font-size: 18px;
+	font-family: 'Kelly Slab', cursive !important;
+
+}
+.MyShortTeam h4 {
+	font-size: 12px;
 	font-family: 'Kelly Slab', cursive !important;
 
 }
@@ -683,6 +696,19 @@ a.btn:hover, button.btn:hover {
 }
 .my-span3{
     width: 320px
+}
+
+.my-span4{
+    width: 340px
+}
+
+.my-span5{
+    width: 526px
+}
+
+.row-fluid .my-span5 {
+	width: 50.05524861878453%;
+ *width: 50.00205712942283%;
 }
 
 .psa-gif-span{
