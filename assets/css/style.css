@@ -23,6 +23,30 @@ Style
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'SourceSansProLight';
+	src: url('source-sans-pro/SourceSansPro-ExtraLight-webfont.eot');
+	src: url('source-sans-pro/SourceSansPro-ExtraLight-webfont?#iefix') format('embedded-opentype'),  url('source-sans-pro/SourceSansPro-ExtraLight-webfont.woff') format('woff'),  url('SourceSansPro-ExtraLight-webfont.ttf') format('truetype'),  url('source-sans-pro/SourceSansPro-ExtraLight-webfont.svg#SourceSansProItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('font/MyriadPro-LightSemiCn.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Palatino';
+	src: url('font/Palatino Linotype.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /**selection text**/
 ::selection {
 /*	background: #F96E5B;*/
@@ -57,7 +81,9 @@ body a {
 	margin-bottom: 40px;
 }
 .TitleSection h1 {
-	font-family: 'Kelly Slab', cursive !important;
+/*    font-family: 'tommasoregular';*/
+   font-family: 'Kelly Slab';
+/*    	font-family: 'Kelly Slab', cursive !important;*/
 	font-size: 40px;
 }
 .page-head:before {
@@ -97,12 +123,32 @@ h3 {
 	margin: 2px 0;
 }
 p {
-	font-size: 17px !important;
+    font-family: 'Palatino';
+    font-size: 17px !important;
 	letter-spacing: 0;
 	line-height: 30px;
 	margin: 0 0 10px;
 	text-align: justify;
 }
+
+pc {
+    font-family: 'Palatino';
+    font-size: 17px !important;
+	letter-spacing: 0;
+	line-height: 30px;
+	margin: 0 0 10px;
+	text-align: justify;
+}
+
+pc2 {
+    width: 100px;
+    font-family: 'SourceSansProLight';
+    text-align: center;
+    font-size: 17px !important;
+	letter-spacing: 0;
+	line-height: 30px;
+}
+
 .container-fluid {
 	padding-left: 0;
 	padding-right: 0;
